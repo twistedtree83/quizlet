@@ -1,1 +1,11 @@
 node_modules
+
+# Ignore service account credentials
+new4-af3fb-firebase-adminsdk-bawyx-f8eed4cdaa.json
+
+# Ignore all JSON files in the root directory (potential credentials)
+/*.json
+
+# Exceptions (add specific JSON files that should be tracked)
+!package.json
+!package-lock.json
