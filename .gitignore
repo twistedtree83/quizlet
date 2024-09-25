@@ -1,5 +1,8 @@
 node_modules
 
+# Ignore example code folder
+examplecode/
+
 # Ignore potential credential files
 *-firebase-adminsdk-*.json
 
